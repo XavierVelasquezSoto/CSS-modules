@@ -1,32 +1,59 @@
+.body {
+	height: 442px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	padding: 48px;
+	color: white;
+}
+
+.body-sedan {
+	background-color: #e28625;
+}
+
+.body-suvs {
+	background-color: #006971;
+}
+
+.body-luxury {
+	background-color: #004140;
+}
+
+.img {
+	height: 40px;
+}
+
 .title {
 	font-family: 'Big Shoulders Display', sans-serif;
 	font-size: 40px;
 	font-weight: 700;
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-.body-Sedan {
-	background-color: #e28625;
-	height: 442px;
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	padding: 48px;
+.text {
+	padding-bottom: 25px;
+	font-size: 15px;
+	line-height: 25px;
 }
 
-.body-Suvs {
-	background-color: #006971;
-	height: 442px;
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	padding: 48px;
+.button {
+	height: 48px;
+	width: 146px;
+	font-size: 15px;
+	line-height: 25px;
+	border-radius: 25px;
+	border: none;
 }
 
-.body-Luxury {
-	background-color: #004140;
-	height: 442px;
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	padding: 48px;
+.button-sedan {
+	color: #e28625;
+}
+.button-suvs {
+	color: #006971;
+}
+.button-luxury {
+	color: #004140;
 }
