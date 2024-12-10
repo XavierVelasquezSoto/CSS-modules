@@ -3,7 +3,7 @@ import Card from "./components/card/Card";
 
 const App = () => {
 	return	<div>
-		<CardFlex container="flex">
+		<CardFlex container="">
 			<Card 
 			bodyColor="sedan" 
 			img="assets/images/sedan.svg" 

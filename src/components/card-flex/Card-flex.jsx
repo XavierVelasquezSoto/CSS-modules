@@ -1,9 +1,8 @@
-import styles from "./card-flex.css"
+import styles from "./card-flex.module.css";
 
-const CardFlex = () => {
+const CardFlex = (container) => {
+    // console.log(props.children[0])
+    return <div className={styles.flex}>{container.children}</div>
+};
 
-    return <div className={styles.flex}></div>
-
-}
-
-export default CardFlex
+export default CardFlex;
