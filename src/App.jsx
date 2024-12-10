@@ -2,7 +2,7 @@ import CardFlex from "./components/card-flex/Card-flex";
 import Card from "./components/card/Card";
 
 const App = () => {
-	return	<div>
+	return	<>
 		<CardFlex container="">
 			<Card 
 			bodyColor="sedan" 
@@ -23,7 +23,7 @@ const App = () => {
 			text="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style. " 
 			buttonText="Learn More"/>
 			</CardFlex>
-			</div>
+			</>
 };
 
 export default App;
